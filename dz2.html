@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       function justFunc(item){
+    if(item === null)
+    return true
+    if(typeof item === "object" || typeof item === "function" )
+
+      return false;
+      else
+      return true
+       }
+       console.log(justFunc([]))
+   </script>    
+</body>
+</html>
